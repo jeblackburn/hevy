@@ -59,6 +59,67 @@ curl -X 'GET' \
 - Each week contains **5 workouts**
 - Convert each workout into a Hevy Routine
 
+#### Converting PDF Data to JSON
+
+When converting unstructured PDF data into JSON format for the REST API, follow these guidelines:
+
+##### 1. Exercise Matching
+- Match each exercise found in the PDF to the exercise templates downloaded from the REST API (Step 1)
+- Use fuzzy matching or string similarity algorithms to find the best match
+- Consider variations in naming (e.g., "Pull Up" vs "Pull-Up" vs "Pullup")
+- If no good match is found, log a warning and skip the exercise or use the closest match
+
+##### 2. Weight Conversion
+PDF files use descriptive weight labels that must be converted to kilogram values:
+
+| PDF Description | Weight (kg) |
+|----------------|-------------|
+| Medium | 15 |
+| Medium Plus | 20 |
+| Heavy | 40 |
+
+**Notes:**
+- These are starting values and can be adjusted based on your specific needs
+- Additional weight descriptions may need to be mapped as encountered
+- Consider adding support for custom weight mappings per user
+
+##### 3. Reps and Rep Ranges
+- Use the `reps` field for single rep counts (e.g., "10 reps" → `reps: 10`)
+- Use the `rep_range` field for rep ranges (e.g., "8-12 reps" → `rep_range: "8-12"`)
+- If the rep count/range cannot be determined from the PDF, omit these fields entirely
+- Do not guess or provide default values for reps
+
+##### 4. Rest Periods in Supersets
+Handle rest periods carefully for supersets and giant sets:
+
+- **Within a superset:** Set `rest_seconds: 0` for all exercises except the last one
+- **After the superset:** The last exercise in the superset should have:
+  - `rest_seconds` value extracted from the PDF if available
+  - Default to `rest_seconds: 90` if not specified in the PDF
+
+**Example:**
+```json
+{
+  "exercises": [
+    {
+      "exercise_template_id": "123",
+      "superset_id": "A",
+      "rest_seconds": 0
+    },
+    {
+      "exercise_template_id": "456",
+      "superset_id": "A",
+      "rest_seconds": 0
+    },
+    {
+      "exercise_template_id": "789",
+      "superset_id": "A",
+      "rest_seconds": 90
+    }
+  ]
+}
+```
+
 ---
 
 ### Step 3: Create Folders for Organization
