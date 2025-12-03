@@ -1,0 +1,1 @@
+- Write another pytest test, that reads "../Workouts/PaulSklarXfit365-v14.pdf", runs it through the PDFWorkoutParser class, and actually writes the data t
