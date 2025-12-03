@@ -158,6 +158,172 @@ For each workout in each week:
 - Use the API documentation at https://api.hevyapp.com/docs/ for detailed schema
 - Request clarification if additional details are needed
 
+#### POST Request Example
+
+**Endpoint:** `POST /v1/routines`
+
+**Example Request:**
+```bash
+curl -X 'POST' \
+  'https://api.hevyapp.com/v1/routines' \
+  -H 'accept: application/json' \
+  -H 'api-key: 2bbe200e-4435-4964-8ed7-cbb52a9d4491' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "routine": {
+    "title": "April Leg Day 🔥",
+    "folder_id": null,
+    "notes": "Focus on form over weight. Remember to stretch.",
+    "exercises": [
+      {
+        "exercise_template_id": "D04AC939",
+        "superset_id": null,
+        "rest_seconds": 90,
+        "notes": "Stay slow and controlled.",
+        "sets": [
+          {
+            "type": "normal",
+            "weight_kg": 100,
+            "reps": 10,
+            "distance_meters": null,
+            "duration_seconds": null,
+            "custom_metric": null,
+            "rep_range": {
+              "start": 8,
+              "end": 12
+            }
+          }
+        ]
+      }
+    ]
+  }
+}'
+```
+
+#### JSON Schema
+
+For validation and code generation purposes, here's the JSON schema for creating a routine:
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Create Routine Request",
+  "type": "object",
+  "required": ["routine"],
+  "properties": {
+    "routine": {
+      "type": "object",
+      "required": ["title", "exercises"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "The name of the routine"
+        },
+        "folder_id": {
+          "type": ["string", "null"],
+          "description": "Optional folder ID to organize the routine"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes for the routine"
+        },
+        "exercises": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["exercise_template_id", "sets"],
+            "properties": {
+              "exercise_template_id": {
+                "type": "string",
+                "description": "ID from the exercise templates API"
+              },
+              "superset_id": {
+                "type": ["string", "null"],
+                "description": "Identifier to group exercises in a superset/giant set"
+              },
+              "rest_seconds": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Rest time in seconds after this exercise"
+              },
+              "notes": {
+                "type": "string",
+                "description": "Optional notes for this exercise"
+              },
+              "sets": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": ["type"],
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": ["normal", "warmup", "failure", "dropset"],
+                      "description": "Type of set"
+                    },
+                    "weight_kg": {
+                      "type": ["number", "null"],
+                      "minimum": 0,
+                      "description": "Weight in kilograms"
+                    },
+                    "reps": {
+                      "type": ["integer", "null"],
+                      "minimum": 0,
+                      "description": "Number of repetitions"
+                    },
+                    "distance_meters": {
+                      "type": ["number", "null"],
+                      "minimum": 0,
+                      "description": "Distance in meters (for cardio)"
+                    },
+                    "duration_seconds": {
+                      "type": ["integer", "null"],
+                      "minimum": 0,
+                      "description": "Duration in seconds (for timed exercises)"
+                    },
+                    "custom_metric": {
+                      "type": ["string", "null"],
+                      "description": "Custom metric value"
+                    },
+                    "rep_range": {
+                      "type": ["object", "null"],
+                      "properties": {
+                        "start": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "description": "Minimum reps in range"
+                        },
+                        "end": {
+                          "type": "integer",
+                          "minimum": 1,
+                          "description": "Maximum reps in range"
+                        }
+                      },
+                      "required": ["start", "end"],
+                      "description": "Target rep range for the set"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+**Key Schema Notes:**
+- `routine.title` and `routine.exercises` are required
+- Each exercise must have at least one set
+- Set types: `normal`, `warmup`, `failure`, `dropset`
+- Use `rep_range` for target ranges (e.g., 8-12 reps)
+- Use `reps` for specific rep counts
+- Weight should be in kilograms (`weight_kg`)
+
 ---
 
 ## Summary
