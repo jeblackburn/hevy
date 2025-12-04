@@ -1,0 +1,230 @@
+{
+  "PaulSklarXfit365-4-Week-Stay-At-Home-Program": {
+    "Week 1": {
+      "routine_folder": {
+        "id": 1913468,
+        "index": 0,
+        "title": "PaulSklarXfit365-4-Week-Stay-At-Home-Program - Week 1",
+        "updated_at": "2025-12-04T19:00:19.559Z",
+        "created_at": "2025-12-04T19:00:19.559Z"
+      }
+    },
+    "Week 2": {
+      "routine_folder": {
+        "id": 1913469,
+        "index": 0,
+        "title": "PaulSklarXfit365-4-Week-Stay-At-Home-Program - Week 2",
+        "updated_at": "2025-12-04T19:00:20.500Z",
+        "created_at": "2025-12-04T19:00:20.500Z"
+      }
+    },
+    "Week 3": {
+      "routine_folder": {
+        "id": 1913470,
+        "index": 0,
+        "title": "PaulSklarXfit365-4-Week-Stay-At-Home-Program - Week 3",
+        "updated_at": "2025-12-04T19:00:21.439Z",
+        "created_at": "2025-12-04T19:00:21.439Z"
+      }
+    },
+    "Week 4": {
+      "routine_folder": {
+        "id": 1913471,
+        "index": 0,
+        "title": "PaulSklarXfit365-4-Week-Stay-At-Home-Program - Week 4",
+        "updated_at": "2025-12-04T19:00:22.450Z",
+        "created_at": "2025-12-04T19:00:22.450Z"
+      }
+    }
+  },
+  "PaulSklarXfit365-Monthly-Program-v5": {
+    "Week 1": {
+      "routine_folder": {
+        "id": 1913850,
+        "index": 0,
+        "title": "PaulSklarXfit365-Monthly-Program-v5 - Week 1",
+        "updated_at": "2025-12-04T20:31:03.878Z",
+        "created_at": "2025-12-04T20:31:03.878Z"
+      }
+    },
+    "Week 2": {
+      "routine_folder": {
+        "id": 1913851,
+        "index": 0,
+        "title": "PaulSklarXfit365-Monthly-Program-v5 - Week 2",
+        "updated_at": "2025-12-04T20:31:04.273Z",
+        "created_at": "2025-12-04T20:31:04.273Z"
+      }
+    },
+    "Week 3": {
+      "routine_folder": {
+        "id": 1913853,
+        "index": 0,
+        "title": "PaulSklarXfit365-Monthly-Program-v5 - Week 3",
+        "updated_at": "2025-12-04T20:31:04.642Z",
+        "created_at": "2025-12-04T20:31:04.642Z"
+      }
+    },
+    "Week 4": {
+      "routine_folder": {
+        "id": 1913854,
+        "index": 0,
+        "title": "PaulSklarXfit365-Monthly-Program-v5 - Week 4",
+        "updated_at": "2025-12-04T20:31:05.028Z",
+        "created_at": "2025-12-04T20:31:05.028Z"
+      }
+    }
+  },
+  "PaulSklarXfit365-Monthly-Programming-v71": {
+    "Week 1": {
+      "routine_folder": {
+        "id": 1913855,
+        "index": 0,
+        "title": "PaulSklarXfit365-Monthly-Programming-v71 - Week 1",
+        "updated_at": "2025-12-04T20:31:05.471Z",
+        "created_at": "2025-12-04T20:31:05.471Z"
+      }
+    },
+    "Week 2": {
+      "routine_folder": {
+        "id": 1913856,
+        "index": 0,
+        "title": "PaulSklarXfit365-Monthly-Programming-v71 - Week 2",
+        "updated_at": "2025-12-04T20:31:05.876Z",
+        "created_at": "2025-12-04T20:31:05.876Z"
+      }
+    },
+    "Week 3": {
+      "routine_folder": {
+        "id": 1913857,
+        "index": 0,
+        "title": "PaulSklarXfit365-Monthly-Programming-v71 - Week 3",
+        "updated_at": "2025-12-04T20:31:06.273Z",
+        "created_at": "2025-12-04T20:31:06.273Z"
+      }
+    },
+    "Week 4": {
+      "routine_folder": {
+        "id": 1913858,
+        "index": 0,
+        "title": "PaulSklarXfit365-Monthly-Programming-v71 - Week 4",
+        "updated_at": "2025-12-04T20:31:06.669Z",
+        "created_at": "2025-12-04T20:31:06.669Z"
+      }
+    }
+  },
+  "PaulSklarXfit365-V10": {
+    "Week 1": {
+      "routine_folder": {
+        "id": 1913859,
+        "index": 0,
+        "title": "PaulSklarXfit365-V10 - Week 1",
+        "updated_at": "2025-12-04T20:31:06.975Z",
+        "created_at": "2025-12-04T20:31:06.975Z"
+      }
+    },
+    "Week 2": {
+      "routine_folder": {
+        "id": 1913860,
+        "index": 0,
+        "title": "PaulSklarXfit365-V10 - Week 2",
+        "updated_at": "2025-12-04T20:31:07.369Z",
+        "created_at": "2025-12-04T20:31:07.369Z"
+      }
+    },
+    "Week 3": {
+      "routine_folder": {
+        "id": 1913861,
+        "index": 0,
+        "title": "PaulSklarXfit365-V10 - Week 3",
+        "updated_at": "2025-12-04T20:31:07.840Z",
+        "created_at": "2025-12-04T20:31:07.840Z"
+      }
+    },
+    "Week 4": {
+      "routine_folder": {
+        "id": 1913862,
+        "index": 0,
+        "title": "PaulSklarXfit365-V10 - Week 4",
+        "updated_at": "2025-12-04T20:31:08.268Z",
+        "created_at": "2025-12-04T20:31:08.268Z"
+      }
+    }
+  },
+  "PaulSklarXfit365-v12_2020-06": {
+    "Week 1": {
+      "routine_folder": {
+        "id": 1913863,
+        "index": 0,
+        "title": "PaulSklarXfit365-v12_2020-06 - Week 1",
+        "updated_at": "2025-12-04T20:31:08.591Z",
+        "created_at": "2025-12-04T20:31:08.591Z"
+      }
+    },
+    "Week 2": {
+      "routine_folder": {
+        "id": 1913864,
+        "index": 0,
+        "title": "PaulSklarXfit365-v12_2020-06 - Week 2",
+        "updated_at": "2025-12-04T20:31:09.003Z",
+        "created_at": "2025-12-04T20:31:09.003Z"
+      }
+    },
+    "Week 3": {
+      "routine_folder": {
+        "id": 1913865,
+        "index": 0,
+        "title": "PaulSklarXfit365-v12_2020-06 - Week 3",
+        "updated_at": "2025-12-04T20:31:09.399Z",
+        "created_at": "2025-12-04T20:31:09.399Z"
+      }
+    },
+    "Week 4": {
+      "routine_folder": {
+        "id": 1913866,
+        "index": 0,
+        "title": "PaulSklarXfit365-v12_2020-06 - Week 4",
+        "updated_at": "2025-12-04T20:31:09.721Z",
+        "created_at": "2025-12-04T20:31:09.721Z"
+      }
+    }
+  },
+  "PaulSklarXfit365-v14": {
+    "Week 1": {
+      "routine_folder": {
+        "id": 1913867,
+        "index": 0,
+        "title": "PaulSklarXfit365-v14 - Week 1",
+        "updated_at": "2025-12-04T20:31:10.151Z",
+        "created_at": "2025-12-04T20:31:10.151Z"
+      }
+    },
+    "Week 2": {
+      "routine_folder": {
+        "id": 1913868,
+        "index": 0,
+        "title": "PaulSklarXfit365-v14 - Week 2",
+        "updated_at": "2025-12-04T20:31:10.549Z",
+        "created_at": "2025-12-04T20:31:10.549Z"
+      }
+    },
+    "Week 3": {
+      "routine_folder": {
+        "id": 1913869,
+        "index": 0,
+        "title": "PaulSklarXfit365-v14 - Week 3",
+        "updated_at": "2025-12-04T20:31:10.935Z",
+        "created_at": "2025-12-04T20:31:10.935Z"
+      }
+    },
+    "Week 4": {
+      "routine_folder": {
+        "id": 1913870,
+        "index": 0,
+        "title": "PaulSklarXfit365-v14 - Week 4",
+        "updated_at": "2025-12-04T20:31:11.269Z",
+        "created_at": "2025-12-04T20:31:11.269Z"
+      }
+    }
+  }
+}
