@@ -1,7 +1,7 @@
 """
 Integration tests for full PDF parsing workflow.
 """
-
+import os
 from unittest.mock import MagicMock, patch
 
 from ..workout_parser import PDFWorkoutParser
@@ -337,3 +337,100 @@ Medium
 
         assert "Workout 1" in routine1['routine']['title']
         assert "Workout 2" in routine2['routine']['title']
+
+
+class TestRealPDFParsing:
+    """Integration tests using real PDF files"""
+
+    def test_parse_paulsklarxfit365_v14_pdf(self, tmp_path):
+        """Test parsing PaulSklarXfit365-v14.pdf and write output to JSON"""
+        import json
+        from pathlib import Path
+        from ..llm_workout_parser import LLMWorkoutParser
+
+        # Paths to the actual files
+        pdf_path = Path(__file__).parent.parent.parent.parent / "Workouts" / "PaulSklarXfit365-v14.pdf"
+        exercises_json_path = Path(__file__).parent.parent.parent.parent / "exercises.json"
+
+        # Skip test if files don't exist
+        if not pdf_path.exists():
+            import pytest
+            pytest.skip(f"PDF file not found: {pdf_path}")
+        if not exercises_json_path.exists():
+            import pytest
+            pytest.skip(f"Exercises JSON not found: {exercises_json_path}")
+
+        # Create LLM-based parser instead of regex-based parser
+        parser = LLMWorkoutParser(str(pdf_path), str(exercises_json_path),
+                                  os.getenv("MODEL_NAME"), None)
+
+        # Extract all workouts from PDF
+        pages_data = parser.extract_pdf_text()
+        assert len(pages_data) > 0, "No pages extracted from PDF"
+
+        # Find all workouts in the PDF
+        workouts = parser.find_workouts(pages_data)
+        assert len(workouts) > 0, "No workouts found in PDF"
+
+        # Parse all workouts using LLM
+        all_routines = {}
+        for workout_num, workout_pages in workouts.items():
+            routine = parser.parse_workout_with_llm(workout_pages, workout_number=workout_num)
+            all_routines[workout_num] = routine
+
+            # Debug: Print number of exercises found
+            num_exercises = len(routine['routine']['exercises'])
+            print(f"\nWorkout #{workout_num}: {num_exercises} exercises found")
+            if num_exercises > 0:
+                print(f"  First exercise: {routine['routine']['exercises'][0].get('exercise_template_id', 'unknown')}")
+
+        # Convert integer keys to strings for JSON serialization
+        all_routines_str_keys = {str(k): v for k, v in all_routines.items()}
+
+        # Write output to JSON file in tmp_path
+        output_file = tmp_path / "paulsklarxfit365_v14_routines.json"
+        with open(output_file, 'w') as f:
+            json.dump(all_routines_str_keys, f, indent=2)
+
+        # Also write to a fixed location for manual inspection
+        fixed_output = Path(__file__).parent.parent.parent.parent / "paulsklarxfit365_v14_routines.json"
+        with open(fixed_output, 'w') as f:
+            json.dump(all_routines_str_keys, f, indent=2)
+
+        # Verify the output file was created and has content
+        assert output_file.exists(), "Output file was not created"
+        assert output_file.stat().st_size > 0, "Output file is empty"
+
+        # Verify the structure of parsed data
+        assert len(all_routines) > 0, "No routines were parsed"
+
+        # Check first workout structure
+        first_workout = all_routines[min(all_routines.keys())]
+        assert 'routine' in first_workout
+        assert 'title' in first_workout['routine']
+        assert 'exercises' in first_workout['routine']
+        assert 'notes' in first_workout['routine']
+        assert 'folder_id' in first_workout['routine']
+
+        # Verify exercises have proper structure
+        if len(first_workout['routine']['exercises']) > 0:
+            first_exercise = first_workout['routine']['exercises'][0]
+            assert 'exercise_template_id' in first_exercise
+            assert 'superset_id' in first_exercise
+            assert 'rest_seconds' in first_exercise
+            assert 'sets' in first_exercise
+
+            # Verify sets structure
+            if len(first_exercise['sets']) > 0:
+                first_set = first_exercise['sets'][0]
+                assert 'type' in first_set
+                assert 'reps' in first_set
+                assert 'weight_kg' in first_set
+
+        # Print summary for manual verification
+        print(f"\n✓ Successfully parsed {len(all_routines)} workouts from PDF")
+        print(f"✓ Output written to: {output_file}")
+        print(f"✓ Total exercises across all workouts: {sum(len(r['routine']['exercises']) for r in all_routines.values())}")
+
+        # Return the output file path for manual inspection
+        return output_file

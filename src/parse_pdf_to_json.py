@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 
 from hevy.workout_parser import PDFWorkoutParser
+from src.hevy.llm_workout_parser import LLMWorkoutParser
 
 
 def parse_pdf_to_json(pdf_path: str, exercises_json_path: str, output_dir: str):
@@ -20,7 +21,7 @@ def parse_pdf_to_json(pdf_path: str, exercises_json_path: str, output_dir: str):
         exercises_json_path: Path to exercises.json with Hevy templates
         output_dir: Directory to save output JSON files
     """
-    parser = PDFWorkoutParser(pdf_path, exercises_json_path)
+    parser = LLMWorkoutParser(pdf_path, exercises_json_path)
 
     # Extract pages
     print("Extracting PDF pages...")
@@ -28,7 +29,7 @@ def parse_pdf_to_json(pdf_path: str, exercises_json_path: str, output_dir: str):
 
     # Find workouts
     print("Identifying workouts...")
-    workouts = parser.find_workouts(pages_data)
+    workouts = parser.parse_workout_with_llm(pages_data)
     print(f"Found {len(workouts)} workouts")
 
     # Create output directory structure
