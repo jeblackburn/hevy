@@ -1,37 +1,61 @@
 """
 Data models for workout parsing.
 """
-
+from datetime import datetime
+from enum import StrEnum, auto
 from typing import Any, Dict, List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, PastDatetime
+
+
+class RepRange(BaseModel):
+    start: int
+    end: int
+
+class ExerciseSetType(StrEnum):
+    normal = auto()
+    warmup = auto()
+    dropset = auto()
+    failure = auto()
+
 
 
 class ExerciseSet(BaseModel):
-    """Represents a single set of an exercise"""
-    type: str = "normal"
-    weight_kg: Optional[float] = None
-    reps: Optional[int] = None
-    distance_meters: Optional[float] = None
-    duration_seconds: Optional[int] = None
-    custom_metric: Optional[str] = None
-    rep_range: Optional[Dict[str, int]] = None
+    index: int
+    type: ExerciseSetType
+    weight_kg: Optional[float]
+    reps: Optional[int]
+    rep_range: Optional[RepRange]
+    distance_meters: Optional[int]
+    duration_seconds: Optional[int]
+    rpe: Optional[float]
+    custom_metric: Optional[int]
 
 
 class Exercise(BaseModel):
     """Represents an exercise within a routine"""
     exercise_template_id: str
-    superset_id: Optional[str] = None
+    superset_id: Optional[str]
     rest_seconds: int = 0
-    notes: Optional[str] = None
-    sets: List[Dict[str, Any]] = Field(default_factory=list)
+    notes: Optional[str]
+    sets: List[ExerciseSet] = Field(default_factory=list)
 
 
-class WorkoutSection(BaseModel):
-    """Represents a section (A, B, C, etc.) within a workout"""
-    section_id: str
+class SuperSet(BaseModel):
+    superset_id: str
     section_type: str  # GIANT SET, SUPERSET, FINISHER, SEQUENCE
     rounds: int
     rest_between_rounds: int
     target: str
-    exercises: List[Dict[str, Any]]
+    exercises: List[Exercise]
+
+class Routine(BaseModel):
+    id: str
+    title: str # e.g. "Workout #1"
+    folder_id: int
+    updated_at: PastDatetime
+    created_at: PastDatetime
+    exercises: List[SuperSet]
+
+class MonthlyWorkoutSchedule(BaseModel):
+    RoutinesByWeek: dict[str, Routine]

@@ -6,22 +6,23 @@ This module uses LiteLLM to send PDF content to an LLM for structured extraction
 
 import json
 import os
-import re
-from pathlib import Path
 from typing import Dict, List, Optional
 
-import fitz  # PyMuPDF
 from dotenv import load_dotenv
 from litellm import completion
+from litellm.utils import supports_pdf_input
+
+from src.hevy.model import MonthlyWorkoutSchedule
 
 load_dotenv()
 
 class LLMWorkoutParser:
     """LLM-based parser for extracting workout data from PDFs"""
 
-    def __init__(self, pdf_path: str, exercises_json_path: str, model: str = "claude-3-5-sonnet-20241022", api_key: Optional[str] = None):
-        self.pdf_path = Path(pdf_path)
+    def __init__(self, exercises_json_path: str, api_key: Optional[str] = None):
         self.exercises = self._load_exercises(exercises_json_path)
+        model = os.getenv("MODEL_NAME")
+        print("Using LiteLLM model: {}".format(model))
         self.model = model
 
         # Create exercise lookup for fuzzy matching
@@ -32,61 +33,27 @@ class LLMWorkoutParser:
         with open(json_path, 'r') as f:
             return json.load(f)
 
-    def extract_pdf_text(self) -> List[Dict]:
-        """Extract text from all pages of the PDF"""
-        doc = fitz.open(self.pdf_path)
-        pages_data = []
-
-        for page_num in range(len(doc)):
-            page = doc[page_num]
-            pages_data.append({
-                'page_number': page_num + 1,
-                'text': page.get_text(),
-                'links': page.get_links()
-            })
-
-        doc.close()
-        return pages_data
-
-    def find_workouts(self, pages_data: List[Dict]) -> Dict[int, List[Dict]]:
-        """
-        Segment pages by workout number.
-        Returns: {workout_number: [page_data, ...]}
-        """
-        workouts = {}
-        current_workout = None
-
-        for page_data in pages_data:
-            text = page_data['text']
-
-            # Look for workout header - try various patterns
-            workout_match = re.search(r'WORKOUT\s*#?(\d+)', text, re.IGNORECASE)
-            if workout_match:
-                current_workout = int(workout_match.group(1))
-                if current_workout not in workouts:
-                    workouts[current_workout] = []
-
-            # Add page to current workout if we're in one
-            if current_workout is not None:
-                workouts[current_workout].append(page_data)
-
-        return workouts
-
-    def parse_workout_with_llm(self, workout_pages: List[Dict], workout_number: int) -> Dict:
+    def parse_workout_with_llm(self, pdf_url: str, ) -> MonthlyWorkoutSchedule:
         """Parse a workout using LLM to extract structured data"""
 
-        # Combine all text from workout pages
-        full_text = "\n\n".join(f"--- Page {page['page_number']} ---\n{page['text']}"
-                                for page in workout_pages)
+        # Create the parsing prompt
+        prompt = self._create_parsing_prompt()
 
-        # Calculate week and day
-        week_number = ((workout_number - 1) // 5) + 1
-        day_in_week = ((workout_number - 1) % 5) + 1
+        # Check if model supports PDF input
+        if not supports_pdf_input(self.model, None):
+            raise ValueError(f"Model {self.model} does not support PDF input")
 
-        # Create the prompt for the LLM
-        prompt = self._create_parsing_prompt(full_text, workout_number, week_number)
+        # Create file content with PDF URL
+        file_content = [
+            {
+                "type": "file",
+                "file": {
+                    "file_data": pdf_url,
+                }
+            },
+        ]
 
-        # Call LLM
+        # Call LLM with PDF URL and prompt
         response = completion(
             model=self.model,
             messages=[
@@ -96,36 +63,22 @@ class LLMWorkoutParser:
                 },
                 {
                     "role": "user",
+                    "content": file_content
+                },
+                {
+                    "role": "user",
                     "content": prompt
                 }
             ],
-            temperature=0.1,  # Low temperature for consistent extraction
+            temperature=0.1,
+            response_format=MonthlyWorkoutSchedule,
         )
 
         # Parse the LLM response
         llm_output = response.choices[0].message.content
+        return MonthlyWorkoutSchedule.model_validate_json(llm_output)
 
-        # Extract JSON from the response (handle markdown code blocks)
-        json_match = re.search(r'```(?:json)?\s*(\{.*?\})\s*```', llm_output, re.DOTALL)
-        if json_match:
-            workout_data = json.loads(json_match.group(1))
-        else:
-            # Try to parse the entire response as JSON
-            workout_data = json.loads(llm_output)
-
-        # Build the final routine structure
-        routine = {
-            "routine": {
-                "title": f"PaulSklarXfit365-v14 - Week {week_number} - Workout {workout_number}",
-                "folder_id": None,
-                "notes": workout_data.get("notes", ""),
-                "exercises": workout_data.get("exercises", [])
-            }
-        }
-
-        return routine
-
-    def _create_parsing_prompt(self, workout_text: str, workout_number: int, week_number: int) -> str:
+    def _create_parsing_prompt(self) -> str:
         """Create the prompt for LLM to parse workout data"""
 
         # Create a simplified exercise list for the LLM
@@ -133,13 +86,10 @@ class LLMWorkoutParser:
                                    for ex in self.exercises[:50]])  # Limit to first 50 to save tokens
 
         prompt = f"""
-Extract the workout routine from the following PDF text and convert it to JSON format.
+This PDF file contains a series of 20 strength training routines. They are organized into 4 weeks, 5 Routines per week.
+Extract the workout routines from the PDF and convert them to JSON format.
 
-**Workout Information:**
-- Workout Number: {workout_number}
-- Week: {week_number}
-
-**Available Exercise Templates (use these IDs):**
+** Exercises **
 {exercise_list}
 
 **Weight Conversion Table:**
@@ -151,36 +101,15 @@ Extract the workout routine from the following PDF text and convert it to JSON f
 - "Challenge" = null (user should determine)
 
 **Instructions:**
-1. Extract all exercises from the workout
+1. Extract all exercises from the workout. Each workout should have at least three SuperSets, each of them containing at least three exercises. 
+   Continue to iterate util all exercises have been read from the PDF.
 2. For each exercise, match it to the closest exercise template ID from the list above
 3. Extract sets, reps, and weights for each exercise
 4. Group exercises by their section (A, B, C, D, etc.) using the same superset_id
 5. For rest times: within a superset/giant set, all exercises except the last should have rest_seconds=0. The last exercise should have rest_seconds=90 (or the value from the PDF)
 6. Convert weight descriptions to kg values using the table above
 
-**Output Format (JSON only, no other text):**
-{{
-  "notes": "Brief summary of the workout sections",
-  "exercises": [
-    {{
-      "exercise_template_id": "EXERCISE_ID",
-      "superset_id": "SECTION_LETTER",
-      "rest_seconds": 0 or 90,
-      "notes": "any specific instructions for this exercise",
-      "sets": [
-        {{
-          "type": "normal",
-          "weight_kg": 15.0,
-          "reps": 10
-        }}
-      ]
-    }}
-  ]
-}}
 
-**PDF Text:**
-{workout_text}
-
-Extract the workout and return ONLY the JSON object (wrapped in ```json code block).
+The response should adhere to the requested format. Return only the JSON, no extra text. Do NOT quote-enclose the output JSON.
 """
         return prompt
