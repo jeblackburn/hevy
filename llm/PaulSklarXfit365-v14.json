@@ -1,0 +1,4453 @@
+{
+  "RoutinesByWeek": {
+    "1": [
+      {
+        "id": "workout_1",
+        "title": "WORKOUT #1",
+        "folder_id": 1,
+        "updated_at": "2024-01-01T00:00:00Z",
+        "created_at": "2024-01-01T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "normal",
+            "rounds": 2,
+            "rest_between_rounds": 180,
+            "target": "UPPER CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "07B38369",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "UPPER CHEST & BACK",
+            "exercises": [
+              {
+                "exercise_template_id": "07B38369",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F1D60854",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Standing Cable Row or Neutral Grip Standing Band Row. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "UPPER CHEST & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "D3E2AB55",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F72FA239",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Incline Squeeze Press. Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "CHEST, BACK & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E8D86EE8",
+                "superset_id": "D",
+                "rest_seconds": 180,
+                "notes": "Horizontal Band Pull. Rest 2-3 Minutes Before Beginning Block E",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BACK, CORE & BICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "E",
+                "rest_seconds": 0,
+                "notes": "Parallel Pullup with Alternating Knee Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "BB792A36",
+                "superset_id": "E",
+                "rest_seconds": 0,
+                "notes": "Bench Tap Burpee Flow - 5 rounds left tap/right tap burpee, 5 burpee finish",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "E",
+                "rest_seconds": 90,
+                "notes": "Bench Tap Pushup Flow - 10 total sequences",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_2",
+        "title": "WORKOUT #2",
+        "folder_id": 1,
+        "updated_at": "2024-01-02T00:00:00Z",
+        "created_at": "2024-01-02T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "LEGS (QUAD EMPHASIS) & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "5046D0A9",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Barbell Front Squat or Kettlebell Front Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "3D0C7C75",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Elevated Heel Goblet Squat. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "B537D09F",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Kettlebell Squat Side Lunge Complex",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C8706C80",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Wall Sit with Manual Resistance",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Manual Resisted Calf Raise. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "LEGS, CONDITIONING & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "F51D9080",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Slam Ball Squat Slams",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "5CC07A1F",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 30,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "9694DA61",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 25,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "ABS/CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "99D5F10E",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Physioball Rollout with Glute Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E3EDA509",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "PaulSklarXFit HIIT System Suspension Oblique Bend or Suspension Oblique Bend",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "527DA061",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Suspension Mobility Rotation",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_3",
+        "title": "WORKOUT #3",
+        "folder_id": 1,
+        "updated_at": "2024-01-03T00:00:00Z",
+        "created_at": "2024-01-03T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "SHOULDERS",
+            "exercises": [
+              {
+                "exercise_template_id": "6AC96645",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Standing Alternating Arm Dumbbell Shoulder Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "8293E554",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Front Side Alternating Dumbbell Shoulder Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "ABEC557F",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "SHOULDERS",
+            "exercises": [
+              {
+                "exercise_template_id": "F99C211D",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "High Kettlebell Clean to Overhead Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "422B08F1",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Single Arm Alternating Lateral Shoulder Raise with Top Hold",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E5988A0A",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "High External Rotation. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BICEPS & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "68F8A292",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Alternating Biceps Curl with Top Hold",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Alternating Bottom Half Hammer Curl with Hold",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Lateral Band Step Biceps Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_4",
+        "title": "WORKOUT #4",
+        "folder_id": 1,
+        "updated_at": "2024-01-04T00:00:00Z",
+        "created_at": "2024-01-04T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "normal",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "POSTERIOR CHAIN",
+            "exercises": [
+              {
+                "exercise_template_id": "C6272009",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Hex Bar Deadlift or Conventional Deadlift. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CHEST & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "502FCE31",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Plank Shoulder Taps",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "79D0BB3A",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "High Cable Fly or Dumbbell Chest Fly. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 6,
+            "rest_between_rounds": 180,
+            "target": "CHEST & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "35B51B87",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C43825EA",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "CD6DC8E5",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_5",
+        "title": "WORKOUT #5",
+        "folder_id": 1,
+        "updated_at": "2024-01-05T00:00:00Z",
+        "created_at": "2024-01-05T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "normal",
+            "rounds": 10,
+            "rest_between_rounds": 180,
+            "target": "BACK & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Military Grip Pull-Up or Parallel Grip Pull-Up or Chin-Ups. 100 reps is the goal or as many as you can complete in 10 sets. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BACK & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "0393F233",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Close Grip Seated Cable Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Plank Row and Reach. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "BACK, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "6A6C31A5",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Straight Bar Cable Pulldown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "94B7239B",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Equalizer Muscle Up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 8,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "id": "workout_6",
+        "title": "WORKOUT #6",
+        "folder_id": 2,
+        "updated_at": "2024-01-08T00:00:00Z",
+        "created_at": "2024-01-08T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "normal",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "3D0C7C75",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Elevated Heel Goblet Squat. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "normal",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "FFDA283B",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Reverse Alternating Barbell Lunge or Reverse Dumbbell Lunge. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 3,
+                    "rep_range": {
+                      "start": 3,
+                      "end": 4
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "normal",
+            "rounds": 3,
+            "rest_between_rounds": 180,
+            "target": "LEG FINISHER",
+            "exercises": [
+              {
+                "exercise_template_id": "A733CC5B",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minute Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "SHOULDERS, CORE & CALVES",
+            "exercises": [
+              {
+                "exercise_template_id": "422B08F1",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 16,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "6AC96645",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Standing Alternating Arm Dumbbell Shoulder Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 3,
+                    "rep_range": {
+                      "start": 3,
+                      "end": 4
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7B8D84E8",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Strict Overhead Barbell Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 25,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_7",
+        "title": "WORKOUT #7",
+        "folder_id": 2,
+        "updated_at": "2024-01-09T00:00:00Z",
+        "created_at": "2024-01-09T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BACK & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "6A6C31A5",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Straight Bar Cable Pulldown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 16,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "0393F233",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Close Grip Seated Cable Row or Standing Close Grip Row. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BACK & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "67280085",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Close Grip Pullover",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Military Grip Pull-Up or Parallel Grip Pull-Up or Chin-Ups. Rounds 1-2 with military grip, Rounds 3-4 with parallel grip, Round 5 with chinup grip. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BICEPS & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Standing Alternating Dumbbell Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "21310F5F",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Reverse Grip Single Arm Cable Triceps Extension",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "94B7239B",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_8",
+        "title": "WORKOUT #8",
+        "folder_id": 2,
+        "updated_at": "2024-01-10T00:00:00Z",
+        "created_at": "2024-01-10T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "normal",
+            "rounds": 6,
+            "rest_between_rounds": 180,
+            "target": "CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "07B38369",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "D3E2AB55",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Equalizer Chest Fly Pushup with Alternating Lateral Step. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "651F844C",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Low Cable Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 12,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C43825EA",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 3,
+            "rest_between_rounds": 180,
+            "target": "CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "31436F5D",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "99D5F10E",
+                "superset_id": "D",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block E",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "normal",
+            "rounds": 3,
+            "rest_between_rounds": 180,
+            "target": "BACK, CORE & CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "23E92538",
+                "superset_id": "E",
+                "rest_seconds": 90,
+                "notes": "Single Arm Row to Chest Fly Flow - 5 full sequences then 5 rows, 5 chest fly per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_9",
+        "title": "WORKOUT #9",
+        "folder_id": 2,
+        "updated_at": "2024-01-11T00:00:00Z",
+        "created_at": "2024-01-11T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "normal",
+            "rounds": 12,
+            "rest_between_rounds": 30,
+            "target": "LEGS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "9694DA61",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "First 8 Sets: 25 Reps, Last 4 Sets: 50 Reps. Rest 30 Seconds Between 25 Rep Sets, Rest 1-3 Minutes Between 50 Rep Sets. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 25,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 6,
+            "rest_between_rounds": 180,
+            "target": "TRAPS, SHOULDERS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "0B841777",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "8293E554",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Front Side Alternating Dumbbell Shoulder Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F99C211D",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Low Kettlebell Clean to Overhead Press. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "TRICEPS, BICEPS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "68F8A292",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Triceps Band Pressdown or Dumbbell Skull Crusher",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 50,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Double Dumbbell Biceps Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Alternating Hammer Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 3,
+                    "rep_range": {
+                      "start": 3,
+                      "end": 4
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_10",
+        "title": "WORKOUT #10",
+        "folder_id": 2,
+        "updated_at": "2024-01-12T00:00:00Z",
+        "created_at": "2024-01-12T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "DYNAMIC FULL BODY, CONDITIONING & MOBILITY",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "PaulSklarXFit HIIT System High Position Dynamic Pull or Neutral Grip Standing Band Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "B537D09F",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "PaulSklarXFit HIIT System Forward Overhead Lunge or Suspension Forward Overhead Lunge",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E3EDA509",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "PaulSklarXFit HIIT System Oblique Bend or Suspension Overhead Oblique Bend",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "70D4EBBF",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "PaulSklarXFit HIIT System Jump Squat Triceps Extension. You can substitute the same exercise with a heavy resistance band. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "DYNAMIC FULL BODY, CONDITIONING & MOBILITY",
+            "exercises": [
+              {
+                "exercise_template_id": "F1D60854",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "PaulSklarXFit HIIT System Dynamic Squat Row or Standing Cable Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E3EDA509",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Side Plank Rotational Punch",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "PaulSklarXFit HIIT System Cross Bow or Single Arm Band Chest and Core Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 30,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "9694DA61",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Prisoner Squat to Side Lunge. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "DYNAMIC FULL BODY, CONDITIONING & MOBILITY",
+            "exercises": [
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Equalizer Muscle Up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Equalizer Chest Fly Push-Up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Equalizer Assisted Dip with Feet Forward",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "id": "workout_11",
+        "title": "WORKOUT #11",
+        "folder_id": 3,
+        "updated_at": "2024-01-15T00:00:00Z",
+        "created_at": "2024-01-15T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "normal",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "POSTERIOR CHAIN",
+            "exercises": [
+              {
+                "exercise_template_id": "C6272009",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Conventional Deadlift or Hex Bar Deadlift. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "79D0BB3A",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "07B38369",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "651F844C",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Low Cable Chest Fly. Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "TRICEPS & BICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "93A552C6",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Wide Grip W Bar Triceps Press Down",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "68F8A292",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "3D0C7C75",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Goblet Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_12",
+        "title": "WORKOUT #12",
+        "folder_id": 3,
+        "updated_at": "2024-01-16T00:00:00Z",
+        "created_at": "2024-01-16T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "SHOULDERS",
+            "exercises": [
+              {
+                "exercise_template_id": "ABEC557F",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7B8D84E8",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Strict Overhead Barbell Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "422B08F1",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Single Arm Alternating Lateral Shoulder Raise with Top Hold. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "SHOULDERS",
+            "exercises": [
+              {
+                "exercise_template_id": "6AC96645",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Standing Alternating Arm Dumbbell Shoulder Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "8293E554",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Front Side Alternating Shoulder Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E5988A0A",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Single Leg Rear Delt Raise. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "SHOULDERS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "8293E554",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Lunge Position Cross Body Core Shoulder Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "8293E554",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Kneeling Core Shoulder Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F51D9080",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Cross Body Core Toss",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "218DA87C",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Superman Low Back Extension",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_13",
+        "title": "WORKOUT #13",
+        "folder_id": 3,
+        "updated_at": "2024-01-17T00:00:00Z",
+        "created_at": "2024-01-17T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "3D0C7C75",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C8706C80",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Wall Sit with Heel Raise. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 30,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "FFDA283B",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Reverse Alternating Barbell Lunge or Reverse Dumbbell Lunge",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "5046D0A9",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Kettlebell Front Squat. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 3,
+            "rest_between_rounds": 180,
+            "target": "LEGS & CALVES",
+            "exercises": [
+              {
+                "exercise_template_id": "B537D09F",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Kettlebell Squat Side Lunge Complex",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 8,
+                    "rep_range": {
+                      "start": 8,
+                      "end": 10
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "238BA231",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 3,
+            "rest_between_rounds": 180,
+            "target": "LEGS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "70D4EBBF",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 20,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "5CC07A1F",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 20,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_14",
+        "title": "WORKOUT #14",
+        "folder_id": 3,
+        "updated_at": "2024-01-18T00:00:00Z",
+        "created_at": "2024-01-18T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Parallel Grip Pull-up or Inverted Parallel Grip Equalizer Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "6A6C31A5",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Horizontal Band Pull or Straight Bar Cable Pulldown. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BACK & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "67280085",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Plank Row and Reach",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "2B4B7310",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Alternating Single Leg RDL Row. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "normal",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BACK, CORE, BICEPS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "1B89CA1B",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Renegade Row Burpee Biceps Curl. Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 3,
+            "rest_between_rounds": 180,
+            "target": "BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Top Half Goblet Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_15",
+        "title": "WORKOUT #15",
+        "folder_id": 3,
+        "updated_at": "2024-01-19T00:00:00Z",
+        "created_at": "2024-01-19T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "UPPER CHEST & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "F72FA239",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Incline Squeeze Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "D3E2AB55",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "07B38369",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Single, Single, Double Incline Dumbbell Press. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 3,
+            "rest_between_rounds": 180,
+            "target": "CHEST & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 8,
+                    "rep_range": {
+                      "start": 8,
+                      "end": 10
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "normal",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CHEST, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "947DAC23",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Ascending Close Grip Pushup to Side Plank Punch. 5 Complete Sequences. Start with 1 pushup and 1 side plank punch and continue until you reach 5 pushups and 5 side plank punch. Repeat sequence for other side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "id": "workout_16",
+        "title": "WORKOUT #16",
+        "folder_id": 4,
+        "updated_at": "2024-01-22T00:00:00Z",
+        "created_at": "2024-01-22T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 2,
+            "rest_between_rounds": 180,
+            "target": "GLUTE ACTIVATION & HIP FLEXOR MOBILITY",
+            "exercises": [
+              {
+                "exercise_template_id": "2B4B7310",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Single Leg Kettlebell RDL with High Knee Tuck",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 10,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Forearm Plank with Alternating Stiff Leg Glute Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C284D923",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Alternating Reverse Power Lunge. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 6,
+            "rest_between_rounds": 180,
+            "target": "POSTERIOR CHAIN, CONDITIONING & VOLUME",
+            "exercises": [
+              {
+                "exercise_template_id": "C6272009",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 12,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C284D923",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Reverse Lunge Hip Openers. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 2,
+            "rest_between_rounds": 180,
+            "target": "BACK",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Military Grip Pullup",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 8,
+                    "rep_range": {
+                      "start": 8,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "6A6C31A5",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Straight Bar Cable Pulldown or Horizontal Band Pull. Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 2,
+            "rest_between_rounds": 180,
+            "target": "BACK & BICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Parallel Grip Pull-Up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 10
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "6A6C31A5",
+                "superset_id": "D",
+                "rest_seconds": 180,
+                "notes": "Straight Bar Cable Pulldown or Horizontal Band Pull. Rest 2-3 Minutes Before Beginning Block E",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "superset",
+            "rounds": 2,
+            "rest_between_rounds": 180,
+            "target": "BACK & BICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "29083183",
+                "superset_id": "E",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 10
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "EA820646",
+                "superset_id": "E",
+                "rest_seconds": 0,
+                "notes": "Neutral Grip Standing Band Row or PaulSklarXFit HIIT System Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 30,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "3D0C7C75",
+                "superset_id": "E",
+                "rest_seconds": 90,
+                "notes": "Dumbbell Goblet Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_17",
+        "title": "WORKOUT #17",
+        "folder_id": 4,
+        "updated_at": "2024-01-23T00:00:00Z",
+        "created_at": "2024-01-23T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "LEGS, BICEPS & SHOULDERS",
+            "exercises": [
+              {
+                "exercise_template_id": "9694DA61",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Add 2 second hold at bottom of squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C8706C80",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "B537D09F",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Forward Reverse Lunge Biceps Shoulder Flow - 2 full sequences & 5 overhead press finish. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 2,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "normal",
+            "rounds": 3,
+            "rest_between_rounds": 180,
+            "target": "LEGS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "5046D0A9",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Kettlebell Front Squat with 2 second hold at bottom of squat. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "normal",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "LEGS, SHOULDERS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "90E506D5",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Single Arm Alternating Dumbbell Thruster. Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "normal",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "LEGS, SHOULDERS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "F3717B0E",
+                "superset_id": "D",
+                "rest_seconds": 180,
+                "notes": "Dumbbell RDL Snatch to Overhead Press Flow. 1 full sequence (exactly as shown in video): 5 DB snatches with 1 additional overhead press per snatch, 5 DB Snatches, 5 Overhead Presses. Rest 2-3 Minutes Before Beginning Block E",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 1,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "superset",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "TRAPS & SHOULDERS",
+            "exercises": [
+              {
+                "exercise_template_id": "8293E554",
+                "superset_id": "E",
+                "rest_seconds": 0,
+                "notes": "Front Side Alternating Shoulder Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "0B841777",
+                "superset_id": "E",
+                "rest_seconds": 90,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_18",
+        "title": "WORKOUT #18",
+        "folder_id": 4,
+        "updated_at": "2024-01-24T00:00:00Z",
+        "created_at": "2024-01-24T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "normal",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "79D0BB3A",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CHEST & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "79D0BB3A",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Equalizer Chest Fly Push Up. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "UPPER CHEST & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "D3E2AB55",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CHEST, TRICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "F72FA239",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Close Grip Squeeze Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "947DAC23",
+                "superset_id": "D",
+                "rest_seconds": 180,
+                "notes": "Incline Equalizer Push-up with Alternating Knee Tuck or Incline Close Grip Push-up with Knee Tuck. Rest 2-3 Minutes Before Beginning Block E",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "normal",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "94B7239B",
+                "superset_id": "E",
+                "rest_seconds": 90,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 15,
+                    "rep_range": {
+                      "start": 15,
+                      "end": 20
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_19",
+        "title": "WORKOUT #19",
+        "folder_id": 4,
+        "updated_at": "2024-01-25T00:00:00Z",
+        "created_at": "2024-01-25T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "normal",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "FFDA283B",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Reverse Alternating Barbell Lunge or Reverse Dumbbell Lunge. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "normal",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "FFDA283B",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Reverse Alternating Barbell Lunge or Reverse Dumbbell Lunge. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 6,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "normal",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "LEGS, CONDITIONING & AGILITY",
+            "exercises": [
+              {
+                "exercise_template_id": "5CC07A1F",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Forward Advancing Jumping Lunges - 30 reps advancing slowly, 20 rep stationary finish as shown in video. Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 30,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 4,
+            "rest_between_rounds": 180,
+            "target": "CALVES, QUADS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 25,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "99D5F10E",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 20
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "B537D09F",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "PaulSklarXFit HIIT System Forward Overhead Lunge or Suspension Forward Overhead Lunge. Use this primarily as a hip flexor stretch and an abdominal activator",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 20
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_20",
+        "title": "WORKOUT #20",
+        "folder_id": 4,
+        "updated_at": "2024-01-26T00:00:00Z",
+        "created_at": "2024-01-26T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "LATS, SERRATUS, OBLIQUES, TRICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "E8D86EE8",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Horizontal Band Pull",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "A",
+                "rest_seconds": 180,
+                "notes": "Equalizer Muscle Up. Rest 2-3 Minutes Before Beginning Block B",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BACK & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "6A6C31A5",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "B",
+                "rest_seconds": 180,
+                "notes": "Push-up Plank Glute Raise. Rest 2-3 Minutes Before Beginning Block C",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "0393F233",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": null,
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 10,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Top Half Goblet Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "C",
+                "rest_seconds": 180,
+                "notes": "Alternating Bottom Half Hammer Curl with Hold. Rest 2-3 Minutes Before Beginning Block D",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "superset",
+            "rounds": 5,
+            "rest_between_rounds": 180,
+            "target": "CORE, BACK, TRICEPS & BALANCE",
+            "exercises": [
+              {
+                "exercise_template_id": "BD0AD077",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Bird Dog Plank Push-up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 6,
+                      "end": 10
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "6A6C31A5",
+                "superset_id": "D",
+                "rest_seconds": 180,
+                "notes": "Lat Pulldown. Rest 2-3 Minutes Before Beginning Block E",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "superset",
+            "rounds": 3,
+            "rest_between_rounds": 180,
+            "target": "CHEST, TRICEPS, OBLIQUES, CONDITIONING & LOW BACK",
+            "exercises": [
+              {
+                "exercise_template_id": "947DAC23",
+                "superset_id": "E",
+                "rest_seconds": 0,
+                "notes": "Ascending Close Grip Pushup to Side Plank Punch",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "218DA87C",
+                "superset_id": "E",
+                "rest_seconds": 90,
+                "notes": "Superman Extensions",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

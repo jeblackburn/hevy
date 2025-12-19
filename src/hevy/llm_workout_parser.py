@@ -16,6 +16,7 @@ from src.hevy.model import MonthlyWorkoutSchedule
 
 load_dotenv()
 
+
 class LLMWorkoutParser:
     """LLM-based parser for extracting workout data from PDFs"""
 
@@ -78,16 +79,74 @@ class LLMWorkoutParser:
         llm_output = response.choices[0].message.content
         return MonthlyWorkoutSchedule.model_validate_json(llm_output)
 
-    def _create_parsing_prompt(self) -> str:
+    def parse_markdown_with_llm(self, markdown_filename: str, routine_name: str) -> MonthlyWorkoutSchedule:
+        """Parse a workout using LLM to extract structured data"""
+
+        # Create the parsing prompt
+        prompt = self._create_parsing_prompt(markdown_filename)
+
+        # Check if model supports PDF input
+        if not supports_pdf_input(self.model, None):
+            raise ValueError(f"Model {self.model} does not support PDF input")
+
+        # Call LLM with PDF URL and prompt
+        messages = [
+            {
+                "role": "system",
+                "content": "You are a fitness data extraction expert. Extract workout information from PDFs into structured JSON format."
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
+        if not markdown_filename:
+            # Create file content with PDF URL
+            file_content = [
+                {
+                    "type": "file",
+                    "file": {
+                        "file_data": routine_name,
+                    }
+                },
+            ]
+
+            messages.append(
+                {
+                    "role": "user",
+                    "content": file_content
+                },
+            )
+
+        response = completion(
+            model=self.model,
+            messages=messages,
+            temperature=0.1,
+            response_format=MonthlyWorkoutSchedule,
+        )
+
+        # Parse the LLM response
+        llm_output = response.choices[0].message.content
+        with open(f"output/llm/{routine_name}.json", 'w') as f:
+            json.dump(llm_output, f)
+        return MonthlyWorkoutSchedule.model_validate_json(llm_output)
+
+    def _create_parsing_prompt(self, markdown_filename: str = None) -> str:
         """Create the prompt for LLM to parse workout data"""
 
         # Create a simplified exercise list for the LLM
         exercise_list = "\n".join([f"- {ex['title']} (ID: {ex['id']})"
-                                   for ex in self.exercises[:50]])  # Limit to first 50 to save tokens
+                                   for ex in self.exercises])  # Limit to first 50 to save tokens
+        file_format = "PDF"
+        markdown = None
+        if markdown_filename:
+            with open(markdown_filename, 'r') as f:
+                markdown = f.read()
+                file_format = "Markdown"
 
         prompt = f"""
-This PDF file contains a series of 20 strength training routines. They are organized into 4 weeks, 5 Routines per week.
-Extract the workout routines from the PDF and convert them to JSON format.
+This {file_format} file contains a series of 20 strength training routines. They are organized into 4 weeks, 5 Routines per week.
+Extract the workout routines from the {file_format} and convert them to JSON format.
 
 ** Exercises **
 {exercise_list}
@@ -109,6 +168,7 @@ Extract the workout routines from the PDF and convert them to JSON format.
 5. For rest times: within a superset/giant set, all exercises except the last should have rest_seconds=0. The last exercise should have rest_seconds=90 (or the value from the PDF)
 6. Convert weight descriptions to kg values using the table above
 
+{markdown and "<MARKDOWN> \n\n" + markdown + "\n\n</MARKDOWN>"}
 
 The response should adhere to the requested format. Return only the JSON, no extra text. Do NOT quote-enclose the output JSON.
 """

@@ -17,15 +17,11 @@ load_dotenv()
 
 from hevy.llm_workout_parser import LLMWorkoutParser
 
-PDF_URLS = [
-    # ("PaulSklarXfit365-Monthly-Program-v5", "https://drive.google.com/file/d/1UgMSGt44QzCdcFtbrNQmQlZitleDPXXq/view?usp=sharing"),
-    # ("PaulSklarXfit365-Monthly-Programming-v71", "https://drive.google.com/file/d/1zhdx9O7nkBOVSVDZC998wuqERhCs9b6q/view?usp=sharing"),
-    # ("PaulSklarXfit365-V10alpha", "https://drive.google.com/file/d/18STw9CNuBKGC-NrTbcFK7Pvm77yTBnot/view?usp=sharing"),
-    # ("PaulSklarXfit365-v12_2020-06", "https://drive.google.com/file/d/1TgSGDtWyyrygXs_MMii-V12BVxAPi6z3/view?usp=sharing"),
-    # ("PaulSklarXfit365-v14", "https://drive.google.com/file/d/1jgm4K5orULFctIMn7hUhXmREUwbHDOER/view?usp=sharing"),
-]
-
-
+# MARKDOWN_FILES = [
+#     ("Workouts/PaulSklarXfit365-V10.md", "PaulSklarXfit365-V10"),
+#     ("Workouts/PaulSklarXfit365-v12_2020-06.md", "PaulSklarXfit365-v12_2020-06"),
+#     ("Workouts/PaulSklarXfit365-v14.md", "PaulSklarXfit365-v14"),
+# ]
 
 
 def get_folder_id(folders_data: dict, program_name: str, week_id: str) -> int | None:
@@ -45,7 +41,7 @@ def get_folder_id(folders_data: dict, program_name: str, week_id: str) -> int | 
     return None
 
 
-def parse_pdf_to_json(exercises_json_path: str, output_dir: str, folders_json_path: str):
+def parse_markdown_to_json(markdowns, exercises_json_path: str, output_dir: str, folders_json_path: str):
     """
     Main function to parse PDF and generate JSON files.
 
@@ -65,28 +61,30 @@ def parse_pdf_to_json(exercises_json_path: str, output_dir: str, folders_json_pa
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
-    for (pdf_name, pdf_url) in PDF_URLS:
-        print(f"\nParsing Workout {pdf_name}...")
+    for (markdown_filename, routine_name) in markdowns:
+        print(f"\nParsing Workout {markdown_filename}...")
 
-        month_schedule = parser.parse_workout_with_llm(pdf_url)
+        month_schedule = parser.parse_markdown_with_llm(markdown_filename, routine_name)
 
-        save_routine(folders_data, month_schedule, output_path, pdf_name)
+        save_routine(folders_data, month_schedule, output_path, routine_name)
 
 
     print(f"\n✓ Parsing complete! Generated workout JSON files")
     print(f"✓ Output directory: {output_path}")
 
 
-def save_routine(folders_data, month_schedule: MonthlyWorkoutSchedule, output_path: Path, pdf_name: str):
-    for week_id in month_schedule.RoutinesByWeek:
-        routine = month_schedule.RoutinesByWeek[week_id]
-        routine.folder_id = get_folder_id(folders_data, program_name=pdf_name, week_id=week_id)
-        week_id_path = week_id.replace(" ", "_")
-        week_dir_path = output_path / pdf_name / week_id_path
+def save_routine(folders_data, month_schedule: MonthlyWorkoutSchedule, output_path: Path, routine_name: str):
+    for week, routines in month_schedule.RoutinesByWeek.items():
+        week_id = f"Week {week}"
+        for routine in routines:
+            routine.folder_id = get_folder_id(folders_data, program_name=routine_name, week_id=week_id)
+        week_id_path = f"Week_{week}"
+        week_dir_path = output_path / routine_name / week_id_path
         os.makedirs(week_dir_path, exist_ok=True)
         output_file = week_dir_path / f"{week_id_path}.json"
         with open(output_file, 'w') as f:
-            json.dump(routine.model_dump(mode='json'), f)
+            routines_dicts = [r.model_dump() for r in routines]
+            json.dump(routines_dicts, f, indent=4, default=str)
         print(f"  Saved to {output_file}")
 
 
@@ -96,5 +94,12 @@ if __name__ == "__main__":
     FOLDERS_JSON = "hevy_folders.json"
     OUTPUT_DIR = "output"
 
-    # Parse PDF to JSON
-    parse_pdf_to_json(EXERCISES_JSON, OUTPUT_DIR, FOLDERS_JSON)
+    os.makedirs(f"{OUTPUT_DIR}/llm", exist_ok=True)
+    markdown_filenames = Path("Workouts")
+    markdown_paths = markdown_filenames.glob("*.md")
+    just_filenames = [f"Workouts/{p.name}" for p in markdown_paths]
+    markdowns = [(fn, fn.split(".")[0].split("/")[1]) for fn in just_filenames]
+    print("Parsing Markdown files...", markdowns)
+
+    # Parse MARKDOWN to JSON
+    parse_markdown_to_json(markdowns, EXERCISES_JSON, OUTPUT_DIR, FOLDERS_JSON)

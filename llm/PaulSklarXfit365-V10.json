@@ -1,0 +1,5234 @@
+{
+  "RoutinesByWeek": {
+    "1": [
+      {
+        "id": "workout_1",
+        "title": "Workout 1",
+        "folder_id": 1,
+        "updated_at": "2024-01-01T00:00:00Z",
+        "created_at": "2024-01-01T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 10,
+            "rest_between_rounds": 60,
+            "target": "LEGS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "9694DA61",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Elevated Heel Bodyweight Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 25,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "3D0C7C75",
+                "superset_id": "A",
+                "rest_seconds": 120,
+                "notes": "Dumbbell Goblet Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 60,
+            "target": "LEGS, CORE, CHEST, CONDITIONING & CALVES",
+            "exercises": [
+              {
+                "exercise_template_id": "BB792A36",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Kettlebell Burpee with Knee Tuck to Ascending Deadlift",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "B",
+                "rest_seconds": 60,
+                "notes": "Standing Calf Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 25,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 60,
+            "target": "CHEST, ABS & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "23A48484",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Single Arm Cable Crunch - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "651F844C",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Mid Cable Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Top Half Push-Ups",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 25,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 60,
+            "target": "CHEST, ABS & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "31436F5D",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Plank Push-Up or Push-up Plank Modification",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "293483AD",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Low Cable Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Push Ups",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 25,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 60,
+            "target": "TRICEPS, CHEST & ABS",
+            "exercises": [
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "E",
+                "rest_seconds": 0,
+                "notes": "Dips",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "875F585F",
+                "superset_id": "E",
+                "rest_seconds": 90,
+                "notes": "Bodyweight Skull Crusher",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_2",
+        "title": "Workout 2",
+        "folder_id": 1,
+        "updated_at": "2024-01-02T00:00:00Z",
+        "created_at": "2024-01-02T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "BACK, REAR DELTS, BICEPS, CORE & LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "E5988A0A",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Rear Delt Raises",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "2B4B7310",
+                "superset_id": "A",
+                "rest_seconds": 120,
+                "notes": "Alternating Single Leg RDL Row - 10-12 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 90,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "0393F233",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Close Grip Seated Cable Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "1B89CA1B",
+                "superset_id": "B",
+                "rest_seconds": 120,
+                "notes": "Renegade Row Burpee Biceps Curl - 5 Complete Sequences",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 60,
+            "target": "LATS, SERRATUS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "9273BA17",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Straight Arm Rope Pulldown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "94B7239B",
+                "superset_id": "C",
+                "rest_seconds": 120,
+                "notes": "Triceps Rope Pressdown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Military Grip Pullup",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Double Dumbbell Biceps Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "D",
+                "rest_seconds": 120,
+                "notes": "Alternating Hammer Curl - 5-8 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 90,
+            "target": "BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "E",
+                "rest_seconds": 120,
+                "notes": "Alternating Biceps Curl with Top Hold - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "F",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 90,
+            "target": "CORE, CHEST, TRICEPS & LATS",
+            "exercises": [
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "F",
+                "rest_seconds": 90,
+                "notes": "Plank Body-Saw with Alternating Forward Reach - 2 Full Sequences then Finish with 5 Pushups",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 2,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_3",
+        "title": "Workout 3",
+        "folder_id": 1,
+        "updated_at": "2024-01-03T00:00:00Z",
+        "created_at": "2024-01-03T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 120,
+            "target": "SHOULDERS & SCAPULAR REGION",
+            "exercises": [
+              {
+                "exercise_template_id": "F99C211D",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "High Kettlebell Clean to Overhead Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7B8D84E8",
+                "superset_id": "A",
+                "rest_seconds": 120,
+                "notes": "Strict Overhead Barbell Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "SHOULDERS, SCAPULAR REGION, TRAPS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "422B08F1",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Single Arm Alternating Lateral Shoulder Raise with Top Hold - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "BD4E7E53",
+                "superset_id": "B",
+                "rest_seconds": 120,
+                "notes": "Hang Clean",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 120,
+            "target": "SHOULDERS, TRAPS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "FE389074",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Rack Pulls",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "0B841777",
+                "superset_id": "C",
+                "rest_seconds": 120,
+                "notes": "Barbell Shrugs",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "SHOULDERS, SCAPULAR REGION, CONDITIONING & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "9930DF71",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Seated Single Arm Alternating Dumbbell Shoulder Press - 5-8 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E5988A0A",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "High External Rotation",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F51D9080",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Slam Ball Squat to Escalating Overhead Press - 30 Seconds as Many Reps as Possible",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 30,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_4",
+        "title": "Workout 4",
+        "folder_id": 1,
+        "updated_at": "2024-01-04T00:00:00Z",
+        "created_at": "2024-01-04T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 120,
+            "target": "LEGS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "C284D923",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Front Barbell Reverse Lunge - 5-6 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "D04AC939",
+                "superset_id": "A",
+                "rest_seconds": 90,
+                "notes": "Barbell Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 120,
+            "target": "LEGS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "818BA121",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Reverse Alternating Barbell Lunge - 5-6 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "D04AC939",
+                "superset_id": "B",
+                "rest_seconds": 90,
+                "notes": "Barbell Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 150,
+            "target": "CHEST & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "79D0BB3A",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Barbell Bench Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "CD6DC8E5",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Straight Leg Bench Dip or Bent Knee Bench Dip",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 3,
+            "rest_between_rounds": 60,
+            "target": "LEGS, CONDITIONING, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "F51D9080",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Slam Ball Squat Side Lunge Complex with Middle Jump Squat - 60 seconds",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "31436F5D",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Plank Push-Up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_5",
+        "title": "Workout 5",
+        "folder_id": 1,
+        "updated_at": "2024-01-05T00:00:00Z",
+        "created_at": "2024-01-05T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "SHOULDERS, TRAPS, CONDITIONING & BACK",
+            "exercises": [
+              {
+                "exercise_template_id": "BD4E7E53",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Hang Clean to Overhead Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "A",
+                "rest_seconds": 120,
+                "notes": "Parallel Grip Pull-Up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 9,
+                    "rep_range": {
+                      "start": 8,
+                      "end": 10
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "LATS, CORE, TRICEPS & CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "67280085",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Close Grip Pullover",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F1D60854",
+                "superset_id": "B",
+                "rest_seconds": 120,
+                "notes": "Seated Straight Bar Cable Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "BICEPS, CORE, BACK & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "29083183",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Chin-Ups",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Alternating Hammer Curl - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F51D9080",
+                "superset_id": "C",
+                "rest_seconds": 120,
+                "notes": "Slam Ball Squat Slam with Straight Arm Pickup - 30 Seconds",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 30,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "93A552C6",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "W-Bar Triceps Pressdown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Dips",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 9,
+                    "rep_range": {
+                      "start": 8,
+                      "end": 10
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "id": "workout_6",
+        "title": "Workout 6",
+        "folder_id": 2,
+        "updated_at": "2024-01-08T00:00:00Z",
+        "created_at": "2024-01-08T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 150,
+            "target": "LEGS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "C6272009",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Conventional Deadlift",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "3D0C7C75",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Dumbbell Goblet Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 120,
+            "target": "LEGS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "C8706C80",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Wall Sit - 45 Seconds",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 45,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Standing Calf Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 40,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "79D0BB3A",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Barbell Bench Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Dumbbell Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 60,
+            "target": "TRICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "CD6DC8E5",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Straight Leg Bench Dip or Bent Knee Bench Dip",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 17,
+                    "rep_range": {
+                      "start": 15,
+                      "end": 20
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "68F8A292",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Skull Crusher",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Plyometric Bench Pushup",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 17,
+                    "rep_range": {
+                      "start": 15,
+                      "end": 20
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_7",
+        "title": "Workout 7",
+        "folder_id": 2,
+        "updated_at": "2024-01-09T00:00:00Z",
+        "created_at": "2024-01-09T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 20,
+            "rest_between_rounds": 60,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Military Grip Pullup",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 60,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "0393F233",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Close Grip Seated Cable Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "31436F5D",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Plank Push-Up or Push-up Plank Modification",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 120,
+            "target": "SCAPULAR REGION, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "6A6C31A5",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Straight Bar Cable Pulldown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "23A48484",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Single Arm Cable Crunch - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Alternating Biceps Curl with Top Hold - 5-8 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 120,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "BE640BA0",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Cable Face Pull",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Alternating Hammer Curl - 5-8 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_8",
+        "title": "Workout 8",
+        "folder_id": 2,
+        "updated_at": "2024-01-10T00:00:00Z",
+        "created_at": "2024-01-10T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "SHOULDERS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "6433CD93",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Alternating Arm Kettlebell Overhead Press - 5-6 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "ABEC557F",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Shrugs",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "422B08F1",
+                "superset_id": "A",
+                "rest_seconds": 120,
+                "notes": "Front Lateral Alternating Shoulder Raise Hold - 10-12 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "SHOULDERS, CORE, CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "BD4E7E53",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Hang Clean to Overhead Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 120,
+            "target": "SHOULDERS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "F1E57334",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Row to Snatch Flow - 5 full sequences",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E5988A0A",
+                "superset_id": "C",
+                "rest_seconds": 120,
+                "notes": "Rear Deltoid Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 18,
+                    "rep_range": {
+                      "start": 16,
+                      "end": 20
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 60,
+            "target": "OBLIQUES, CORE & LOWER BACK",
+            "exercises": [
+              {
+                "exercise_template_id": "E3EDA509",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Side Plank Rotational Press - 10-12 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "218DA87C",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Alternating Single Arm Superman Extensions - 10 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_9",
+        "title": "Workout 9",
+        "folder_id": 2,
+        "updated_at": "2024-01-11T00:00:00Z",
+        "created_at": "2024-01-11T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 90,
+            "target": "LEGS, CORE, SHOULDERS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "5046D0A9",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Barbell Front Squat or Kettlebell Front Squat - Round 1-3: 10-12, Round 4-6: 5-8",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 1,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 2,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 3,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 4,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 5,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F99C211D",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Kettlebell Low Clean Squat Complex",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "A127DA73",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Kettlebell Goblet Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 150,
+            "target": "LEGS, CORE, CONDITIONING & CALVES",
+            "exercises": [
+              {
+                "exercise_template_id": "818BA121",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Reverse Alternating Barbell Lunge - 5-6 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "3D0C7C75",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Elevated Heel Goblet Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Fixed Bent Knee Standing Calf Raises",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 120,
+            "target": "UPPER CHEST",
+            "exercises": [
+              {
+                "exercise_template_id": "07B38369",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Incline Dumbbell Chest Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "D3E2AB55",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Incline Dumbbell Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "UPPER AND INNER CHEST, TRICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "F72FA239",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Incline Squeeze Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "39C99849",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Close Grip Incline Bench Push-up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 12,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_10",
+        "title": "Workout 10",
+        "folder_id": 2,
+        "updated_at": "2024-01-12T00:00:00Z",
+        "created_at": "2024-01-12T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "FULL BODY CONDITIONING WITH BICEPS & SHOULDER CONCENTRATION",
+            "exercises": [
+              {
+                "exercise_template_id": "2B4B7310",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "RDL to Overhead",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "60 Second Continuous Alternating Dumbbell Biceps Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Parallel Grip Pull-Up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 9,
+                    "rep_range": {
+                      "start": 8,
+                      "end": 10
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Alternating Hammer Curl - 5-8 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 0,
+            "target": "TRICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "21310F5F",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Reverse Grip Single Arm Cable Triceps Extension - 2 Sets Per Arm, Alternate arms with no rest until 4 total sets complete",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 120,
+            "target": "TRICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Double Dumbbell Biceps Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "29083183",
+                "superset_id": "D",
+                "rest_seconds": 150,
+                "notes": "Chin-Ups",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 120,
+            "target": "TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "35B51B87",
+                "superset_id": "E",
+                "rest_seconds": 0,
+                "notes": "Close Grip Bench Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "E",
+                "rest_seconds": 150,
+                "notes": "Dips",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "F",
+            "section_type": "giant_set",
+            "rounds": 3,
+            "rest_between_rounds": 120,
+            "target": "BACK, CORE & LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "C8706C80",
+                "superset_id": "F",
+                "rest_seconds": 0,
+                "notes": "Single Leg Wall Hold with Dumbbell Row - 10-12 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "F",
+                "rest_seconds": 90,
+                "notes": "Rotational Dumbbell Biceps Curl - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "id": "workout_11",
+        "title": "Workout 11",
+        "folder_id": 3,
+        "updated_at": "2024-01-15T00:00:00Z",
+        "created_at": "2024-01-15T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 150,
+            "target": "POSTERIOR CHAIN, CORE, CHEST & MOBILITY",
+            "exercises": [
+              {
+                "exercise_template_id": "C6272009",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Conventional Deadlift - Rounds 1-2: 10-12 Medium Plus, Rounds 3-4: 5-8 Heavy, Rounds 5-6: 3-5 As Heavy as Possible",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 1,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 2,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 3,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 4,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 4,
+                    "rep_range": {
+                      "start": 3,
+                      "end": 5
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 5,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 4,
+                    "rep_range": {
+                      "start": 3,
+                      "end": 5
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Dumbbell Plank and Hip Flexor Step Through - 5 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 150,
+            "target": "POSTERIOR CHAIN & LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "C6272009",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Conventional Deadlift - As many as possible in 60 seconds with good form",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C284D923",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Reverse Bodyweight Power Lunge - 5 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 8,
+            "rest_between_rounds": 150,
+            "target": "CHEST & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "79D0BB3A",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Barbell Bench Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "CD6DC8E5",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Straight Leg Bench Dip or Bent Knee Bench Dip",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "CORE, CHEST & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Push-Up with Alternating Knee Tuck",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F72FA239",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Flat Bench Dumbbell Squeeze Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_12",
+        "title": "Workout 12",
+        "folder_id": 3,
+        "updated_at": "2024-01-16T00:00:00Z",
+        "created_at": "2024-01-16T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 150,
+            "target": "BACK, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "6A6C31A5",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Straight Bar Cable Pulldown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "93A552C6",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "W-Bar Triceps Pressdown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 3,
+            "rest_between_rounds": 150,
+            "target": "BACK, CORE, REAR DELTS & BALANCE",
+            "exercises": [
+              {
+                "exercise_template_id": "0393F233",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Standing Underhand Cable Row - 16 then 5-10 fast reps",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 16,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E5988A0A",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Single Leg Rear Delt Raise - 10-12 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 3,
+            "rest_between_rounds": 150,
+            "target": "CHEST & HIIT CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "0393F233",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Standing Cable Row - 16 then 5-10 fast reps",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 16,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Alternating Hammer Curl - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 3,
+            "rest_between_rounds": 150,
+            "target": "BACK, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "875F585F",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Bodyweight Skull Crusher",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "67280085",
+                "superset_id": "D",
+                "rest_seconds": 150,
+                "notes": "Dumbbell Close Grip Pullover",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "E",
+            "section_type": "giant_set",
+            "rounds": 3,
+            "rest_between_rounds": 150,
+            "target": "BACK, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "0393F233",
+                "superset_id": "E",
+                "rest_seconds": 0,
+                "notes": "Standing Close Grip Row - 16 then 5-10 fast reps",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 16,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "E",
+                "rest_seconds": 150,
+                "notes": "Lateral Band Step Biceps Curl - 5-6 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "F",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "BACK, CORE, LEGS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "BB792A36",
+                "superset_id": "F",
+                "rest_seconds": 90,
+                "notes": "Kettlebell Deadlift Burpee",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_13",
+        "title": "Workout 13",
+        "folder_id": 3,
+        "updated_at": "2024-01-17T00:00:00Z",
+        "created_at": "2024-01-17T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 8,
+            "rest_between_rounds": 150,
+            "target": "LEGS, CALVES & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "9694DA61",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Elevated Heel Bodyweight Squat and Elevated Heel Goblet Squat - Round 1: 20 Bodyweight, Round 2-3: 10-12 Medium Plus, Rounds 4-8: 5-8 Heavy",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 1,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 2,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 3,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 4,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 5,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 6,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 7,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "9694DA61",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Bodyweight Squat - Round 1: 20, Round 2: 10, Round 3: 8, Rounds 4-8: 5",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 1,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 2,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 8,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 3,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 4,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 5,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 6,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  },
+                  {
+                    "index": 7,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Standing Calf Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 150,
+            "target": "LEGS, CALVES & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "F3717B0E",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Modified Single Arm Dumbbell Snatch - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 3,
+            "rest_between_rounds": 120,
+            "target": "SHOULDERS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "6AC96645",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Standing Alternating Arm Dumbbell Shoulder Press - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_14",
+        "title": "Workout 14",
+        "folder_id": 3,
+        "updated_at": "2024-01-18T00:00:00Z",
+        "created_at": "2024-01-18T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 150,
+            "target": "CHEST, BACK, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "293483AD",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Low Cable Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Dips",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 12,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Military Grip Pullup",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 8,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "CHEST, BACK, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "2B4B7310",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Alternating Single Leg RDL Row - 5-6 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "1B89CA1B",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Renegade Row - 5-6 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Dumbbell Pushup With Knee Tuck - 5 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "CHEST, BACK, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "07B38369",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Single, Single, Double Incline Dumbbell Chest Press - 5-8 full sequences",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "F72FA239",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Incline Squeeze Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "D3E2AB55",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Incline Dumbbell Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "TRICEPS, CORE & TRICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "93A552C6",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "W-Bar Triceps Pressdown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "B5EFBF9C",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "W Bar Overhead Triceps Cable Extension",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "23A48484",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Single Arm Cable Crunch - 20 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_15",
+        "title": "Workout 15",
+        "folder_id": 3,
+        "updated_at": "2024-01-19T00:00:00Z",
+        "created_at": "2024-01-19T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "A127DA73",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Kettlebell Front Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "818BA121",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Barbell Reverse Lunge - 5-6 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Standing Calf Raise - 10 right leg, 10 left leg, 10 both legs together (30 total)",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 30,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 3,
+            "rest_between_rounds": 90,
+            "target": "LEGS",
+            "exercises": [
+              {
+                "exercise_template_id": "5E1A7777",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Bodyweight 3 Way Continuous Lunge with Squat Center - 1 Minute",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C8706C80",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Wall Sit - 45-60 Seconds",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 52,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 150,
+            "target": "SHOULDERS, TRAPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "0B841777",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Barbell Shrug",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 16,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "422B08F1",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Lateral Shoulder Raise with Single Arm Hold - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 150,
+            "target": "SHOULDERS, TRAPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "6AC96645",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Standing Alternating Arm Dumbbell Shoulder Press - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E5988A0A",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Rear Deltoid Raises",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Alternating Biceps Curl with Top Hold - 5-8 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 40,
+                    "reps": 6,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 8
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "id": "workout_16",
+        "title": "Workout 16",
+        "folder_id": 4,
+        "updated_at": "2024-01-22T00:00:00Z",
+        "created_at": "2024-01-22T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 150,
+            "target": "POSTERIOR CHAIN, CHEST, TRICEPS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "C6272009",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Conventional Deadlift",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Dips - Alternate exercise: Straight Leg Bench Dip or Bent Knee Bench Dip",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 12,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "39C99849",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Close Grip Incline Bench Push-up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 6,
+            "rest_between_rounds": 150,
+            "target": "POSTERIOR CHAIN, CHEST, BICEPS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "F72FA239",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Flat Bench Dumbbell Squeeze Press",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "12017185",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Chest Fly",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Rotational Dumbbell Biceps Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "875F585F",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Bodyweight Skull Crusher",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 3,
+            "rest_between_rounds": 150,
+            "target": "POSTERIOR CHAIN, CHEST, TRICEPS, CORE, CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "BB792A36",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Kettlebell Deadlift Burpee",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_17",
+        "title": "Workout 17",
+        "folder_id": 4,
+        "updated_at": "2024-01-23T00:00:00Z",
+        "created_at": "2024-01-23T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "BACK, CORE & BICEPS",
+            "exercises": [
+              {
+                "exercise_template_id": "1B2B1E7C",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Military Grip Pullup",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "425805F4",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Inverted Parallel Grip Equalizer Row or Dumbbell Bent Over Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "D2387AB1",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Straight Arm Band Pulldown",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "CHEST & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "23E92538",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Bent Over Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Superman Plank Ball Touch",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "67280085",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Close Grip Pullover",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "425805F4",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Inverted Double Overhand Grip Equalizer Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 12,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "502FCE31",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Plank Shoulder Taps - 10 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 90,
+            "target": "BACK, BICEPS & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "425805F4",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Inverted Double Underhand Grip Equalizer Row",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "180 Degree Alternating Biceps Curl - 5-6 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "7E3BC8B6",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Alternating Hammer Curl - 5-6 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_18",
+        "title": "Workout 18",
+        "folder_id": 4,
+        "updated_at": "2024-01-24T00:00:00Z",
+        "created_at": "2024-01-24T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "LEGS (QUADS), CALVES & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "5046D0A9",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Barbell Front Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "06745E58",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Standing Calf Raise",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 15,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "LEGS (QUADS), HIPS, CALVES, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "C8706C80",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Wall Sit with Manual Resistance - 60 Seconds",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 60,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "A733CC5B",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Walking Dumbbell Lunges - 20 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "EC02979E",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Lateral Band Steps - 25 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 25,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 4,
+            "rest_between_rounds": 150,
+            "target": "LEGS, HIPS, CALVES, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "5CC07A1F",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Jumping Lunges - 20 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "9694DA61",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Elevated Heel Squats",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Forearm Plank with Alternating Stiff Leg Glute Raise - 12 per leg",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 12,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_19",
+        "title": "Workout 19",
+        "folder_id": 4,
+        "updated_at": "2024-01-25T00:00:00Z",
+        "created_at": "2024-01-25T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "SHOULDERS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "F3717B0E",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Modified Single Arm Dumbbell Snatch - 12-15 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E5988A0A",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "High External Rotation",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "ABEC557F",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Dumbbell Shrugs",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "SHOULDERS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "6AC96645",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Standing Alternating Arm Dumbbell Shoulder Press - 5-6 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "9930DF71",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Seated Single Arm Alternating Dumbbell Shoulder Press - 5-6 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "422B08F1",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Single Arm Alternating Lateral Shoulder Raise with Top Hold - 10-12 per arm",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 11,
+                    "rep_range": {
+                      "start": 10,
+                      "end": 12
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "TRAPS, SHOULDERS, POSTERIOR CHAIN & CORE",
+            "exercises": [
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Suspension Overhead Oblique Bend - 10 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "E5988A0A",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Rear Delt Raises",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 15,
+                    "reps": 13,
+                    "rep_range": {
+                      "start": 12,
+                      "end": 15
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "422B08F1",
+                "superset_id": "C",
+                "rest_seconds": 150,
+                "notes": "Front Lateral Alternating Shoulder Raise Hold - 5-6 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": {
+                      "start": 5,
+                      "end": 6
+                    },
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "D",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "SHOULDERS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "C6C9B8A0",
+                "superset_id": "D",
+                "rest_seconds": 0,
+                "notes": "Suspension Overhead Oblique Bend - 10 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "D7D7FCCE",
+                "superset_id": "D",
+                "rest_seconds": 90,
+                "notes": "Standing Landmine Trunk Rotation - 10 per side",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "workout_20",
+        "title": "Workout 20",
+        "folder_id": 4,
+        "updated_at": "2024-01-26T00:00:00Z",
+        "created_at": "2024-01-26T00:00:00Z",
+        "exercises": [
+          {
+            "superset_id": "A",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "LEGS, CORE & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "128A2381",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Step-Up Squat Flow - 80 Seconds",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 80,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "3D0C7C75",
+                "superset_id": "A",
+                "rest_seconds": 0,
+                "notes": "Dumbbell Goblet Squat",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": null,
+                    "reps": 20,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "70D4EBBF",
+                "superset_id": "A",
+                "rest_seconds": 150,
+                "notes": "Jump Squats - 30 Seconds",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": null,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": 30,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "B",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "BACK, CORE, TRICEPS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "29083183",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Chin Ups",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 8,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "392887AA",
+                "superset_id": "B",
+                "rest_seconds": 0,
+                "notes": "Push-Up Row Deadlift Flow - 5 full sequences",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 20,
+                    "reps": 5,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "875F585F",
+                "superset_id": "B",
+                "rest_seconds": 150,
+                "notes": "Bodyweight Skull Crusher",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "superset_id": "C",
+            "section_type": "giant_set",
+            "rounds": 5,
+            "rest_between_rounds": 150,
+            "target": "CHEST, TRICEPS, CORE, BICEPS & CONDITIONING",
+            "exercises": [
+              {
+                "exercise_template_id": "947DAC23",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Close Grip Push-Up",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 12,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "28BB4A95",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Dips",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "39C99849",
+                "superset_id": "C",
+                "rest_seconds": 0,
+                "notes": "Incline Equalizer Push-up with Alternating Knee Tuck - Substitute any elevated platform if necessary",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 16,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              },
+              {
+                "exercise_template_id": "37FCC2BB",
+                "superset_id": "C",
+                "rest_seconds": 90,
+                "notes": "Lateral Band Step Biceps Curl",
+                "sets": [
+                  {
+                    "index": 0,
+                    "type": "normal",
+                    "weight_kg": 0,
+                    "reps": 10,
+                    "rep_range": null,
+                    "distance_meters": null,
+                    "duration_seconds": null,
+                    "rpe": null,
+                    "custom_metric": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

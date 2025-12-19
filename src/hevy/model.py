@@ -2,7 +2,7 @@
 Data models for workout parsing.
 """
 from datetime import datetime
-from enum import StrEnum, auto
+from enum import StrEnum, auto, IntEnum
 from typing import Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field, PastDatetime
@@ -42,7 +42,7 @@ class Exercise(BaseModel):
 
 
 class SuperSet(BaseModel):
-    superset_id: str
+    superset_id: int
     section_type: str  # GIANT SET, SUPERSET, FINISHER, SEQUENCE
     rounds: int
     rest_between_rounds: int
@@ -51,11 +51,17 @@ class SuperSet(BaseModel):
 
 class Routine(BaseModel):
     id: str
-    title: str # e.g. "Workout #1"
+    title: str # e.g. "Week 1 Workout 1"
     folder_id: int
     updated_at: PastDatetime
     created_at: PastDatetime
     exercises: List[SuperSet]
 
+class Week(IntEnum):
+    ONE = 1
+    TWO = 2
+    THREE = 3
+    FOUR = 4
+
 class MonthlyWorkoutSchedule(BaseModel):
-    RoutinesByWeek: dict[str, Routine]
+    RoutinesByWeek: dict[Week, List[Routine]]
