@@ -167,6 +167,7 @@ Extract the workout routines from the {file_format} and convert them to JSON for
 4. Group exercises by their section (A, B, C, D, etc.) using the same superset_id
 5. For rest times: within a superset/giant set, all exercises except the last should have rest_seconds=0. The last exercise should have rest_seconds=90 (or the value from the PDF)
 6. Convert weight descriptions to kg values using the table above
+7. Superset-id must be an integer. It can be any positive integer but must be the same for all exercises in the superset.
 
 {markdown and "<MARKDOWN> \n\n" + markdown + "\n\n</MARKDOWN>"}
 

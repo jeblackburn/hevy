@@ -8,8 +8,27 @@ required by the Hevy.com REST API for posting routines.
 
 import json
 from pathlib import Path
+from time import sleep
 from typing import Any, Dict, List
 import requests
+
+
+def remove_null_values(obj: Any) -> Any:
+    """
+    Recursively remove all keys with null values from dictionaries.
+
+    Args:
+        obj: The object to clean (dict, list, or other)
+
+    Returns:
+        The cleaned object with null values removed
+    """
+    if isinstance(obj, dict):
+        return {k: remove_null_values(v) for k, v in obj.items() if v is not None}
+    elif isinstance(obj, list):
+        return [remove_null_values(item) for item in obj]
+    else:
+        return obj
 
 
 def convert_workout_to_api_format(workout: Dict[str, Any]) -> Dict[str, Any]:
@@ -45,7 +64,7 @@ def convert_workout_to_api_format(workout: Dict[str, Any]) -> Dict[str, Any]:
             # Add flattened exercise
             flat_exercises.append({
                 "exercise_template_id": exercise["exercise_template_id"],
-                "superset_id": exercise.get("superset_id"),
+                "superset_id": superset.get("superset_id"),
                 "rest_seconds": exercise["rest_seconds"],
                 "notes": exercise.get("notes"),
                 "sets": clean_sets
@@ -53,8 +72,9 @@ def convert_workout_to_api_format(workout: Dict[str, Any]) -> Dict[str, Any]:
 
     api_routine["exercises"] = flat_exercises
 
-    # Step 4: Wrap in API structure
-    return {"routine": api_routine}
+    # Step 4: Wrap in API structure and remove null values
+    api_response = {"routine": api_routine}
+    return remove_null_values(api_response)
 
 
 def convert_file(json_path: Path) -> List[Dict[str, Any]]:
@@ -156,7 +176,7 @@ def preview_conversion(json_path: Path, output_path: Path = None):
         supersets = set(ex['superset_id'] for ex in payload['routine']['exercises']
                        if ex['superset_id'])
         if supersets:
-            print(f"  Supersets: {', '.join(sorted(supersets))}")
+            print(f"  Supersets: {', '.join(str(s) for s in sorted(supersets))}")
 
         print()
 
@@ -260,6 +280,9 @@ def batch_convert_all(output_dir: Path = Path("output"),
                         print(f"  ✓ Posted: {payload['routine']['title']}")
                         print(f"    Routine ID: {response.get('id', 'N/A')}")
                         successful += 1
+                        if successful % 10 == 0:
+                            print(f"We've processed {successful} workouts. Time for a nap.")
+                            sleep(10)
                     except requests.HTTPError as e:
                         print(f"  ✗ Failed: {payload['routine']['title']}")
                         print(f"    Error: {e}")
